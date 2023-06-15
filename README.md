@@ -13,3 +13,11 @@ conda activate dl-env
 touch template.py
 ```
 
+* define a setup.py file
+
+* add required libraries to requirements.txt and pip install it
+```bash
+pip freeze
+pip freeze | grep pandas
+```
+
