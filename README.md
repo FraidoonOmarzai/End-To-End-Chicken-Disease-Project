@@ -23,3 +23,6 @@ pip freeze | grep pandas
 **Note:** The **Logging** is a means of tracking events that happen when some software runs. 
 *  add code to src/cnnClassifier/__init__.py  to define logging and create test.py for test purpose
 
+**Note:** The **utils.py** makes it easy to execute common tasks in Python scripts
+* define utils (src/cnnClassifier/utils/utils.py)
+
