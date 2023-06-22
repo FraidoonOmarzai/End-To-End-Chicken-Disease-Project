@@ -50,3 +50,10 @@ pip freeze | grep pandas
 
 * create entity/config_entity.py ---> configuration.py ---> components/data_ingestion.py ---> pipeline/stage_01_data_ingestion.py ---> and define main.py and run **python main.py**
 
+****** Prepare Base Model Section *******
+
+**Note:** **Static methods** in Python are extremely similar to python class level methods, the difference being that a static method is bound to a class rather than the objects for that class. This means that a static method can be called without an object for that class.
+
+* Define a config/config.yaml and params.yaml ---> Create research/02_prepare_base_model.ipynb and run it
+
+* define entity/config_entity.py ---> config/configuration.py ---> components/prepare_base_model.py (create) ---> pipeline/stage_02_prepare_base_model.py (create) ---> define main.py
