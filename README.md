@@ -68,4 +68,9 @@ pip freeze | grep pandas
 ###########Training Section###########
 
 * Define a config/config.yaml ---> Create research/04_training.ipynb and run it
-* * define entity/config_entity.py ---> config/configuration.py ---> components/training.py (create) ---> pipeline/stage_03_training.py (create) ---> define main.py
+* define entity/config_entity.py ---> config/configuration.py ---> components/training.py (create) ---> pipeline/stage_03_training.py (create) ---> define main.py
+
+###########Evaluation Section###########
+
+* Create research/05_evaluation.ipynb and run it
+* define entity/config_entity.py ---> config/configuration.py ---> components/evaluation.py (create) ---> pipeline/stage_04_evaluation.py (create) ---> define main.py
