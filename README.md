@@ -86,3 +86,9 @@ dvc init
 dvc repro
 dvc dag
 ```
+
+#############**app Section**######################
+
+* define index.html
+* create function pipeline/prediction.py
+* create app.py and add define it
