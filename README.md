@@ -1,4 +1,6 @@
-# End-To-End-DL-Project
+# Chicken Disease Project
+
+**Note:**Implementations of end-to-end deep learning project
 
 ## Steps
 
@@ -40,7 +42,7 @@ pip freeze | grep pandas
 ```
 
 
-###########Data Ingestion Section##############
+###########**Data Ingestion Section**##############
 
 * [Data-Link](https://github.com/FraidoonOmarzai/data/blob/main/Chicken_disease_img.zip)
 * first we will run on jupyter-notebook
@@ -49,7 +51,7 @@ pip freeze | grep pandas
 
 
 
-###########Prepare Base Model Section###########
+###########**Prepare Base Model Section**###########
 
 **Note:** **Static methods** in Python are extremely similar to python class level methods, the difference being that a static method is bound to a class rather than the objects for that class. This means that a static method can be called without an object for that class.
 
@@ -58,19 +60,29 @@ pip freeze | grep pandas
 
 
 
-###########Prepare Callbacks Section###########
+###########**Prepare Callbacks Section**############
 
 * Define config/config.yaml ---> create research/03_prepare_callbacks.ipynb and run it
 * create components/prepare_callbacks.py ---> config/configuration.py ---> entity/config_entity.py
 
 
 
-###########Training Section###########
+###########**Training Section**####################
 
 * Define a config/config.yaml ---> Create research/04_training.ipynb and run it
 * define entity/config_entity.py ---> config/configuration.py ---> components/training.py (create) ---> pipeline/stage_03_training.py (create) ---> define main.py
 
-###########Evaluation Section###########
+###########**Evaluation Section**##################
 
 * Create research/05_evaluation.ipynb and run it
 * define entity/config_entity.py ---> config/configuration.py ---> components/evaluation.py (create) ---> pipeline/stage_04_evaluation.py (create) ---> define main.py
+
+
+#############**DVC Section**######################
+
+* add code to dvc.yaml and run the below commands
+```bash
+dvc init
+dvc repro
+dvc dag
+```
