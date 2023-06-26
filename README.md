@@ -1,6 +1,6 @@
 # Chicken Disease Project
 
-**Note:**Implementations of end-to-end deep learning project
+**Note:** Implementations of end-to-end deep learning project
 
 ## Steps
 
